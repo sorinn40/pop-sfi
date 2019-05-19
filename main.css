@@ -1,0 +1,184 @@
+/* ==== GENERAL STYLES ==== */
+
+* {
+    box-sizing: border-box;
+}
+
+/* ==== FULL SCREEN HEADER ==== */
+
+.cover {
+    background: url('assets/KRdTIQs%20-%20Imgur.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  color: hsla(0,0%,100%,.7);
+    font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  display: table;
+}
+
+.wrapper {
+    display: table-cell;
+  vertical-align: middle;
+    padding: 0 .625rem;
+}
+
+.byline h2 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    letter-spacing: .1rem;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+}
+
+.byline h3 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+.headline {
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+@media screen and (min-width: 1224px) {
+
+    .headline {
+        font-size: 6rem;
+    }
+
+}
+
+.tagline {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+/* ==== ARTICLE STYLES ==== */
+
+section {
+    padding: 0 .625rem;
+}
+
+@media screen and (min-width: 1224px) {
+
+    section {
+        width: 50%;
+        max-width: 600px;
+        margin: 2rem auto;
+    }
+
+}
+
+section h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    line-height: 1.25;
+    margin: 2rem 0;
+}
+
+section p {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 1rem 0;
+}
+
+/* ==== GENERAL STYLES ==== */
+
+* {
+  box-sizing: border-box;
+}
+
+/* ==== A SIMPLE TOP NAVIGATION ==== */
+
+nav ul {
+  background-color: #eee;
+  text-align: center;
+}
+
+nav li {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  height: 3rem;
+  border-bottom: 1px solid #ccc;
+}
+
+nav a {
+  text-decoration: none;
+  color: #C74F78;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #fff;
+  transition: background-color .3s ease-in-out;
+}
+
+nav a.active {
+  background-color: #c74f78;
+  color: #eee;
+}
+
+@media (min-width: 600px) {
+
+  nav li {
+    display: inline-block;
+    border-bottom: none;
+    width: 7.5rem;
+  }
+
+}
+
+nav {
+  font-size: 0;
+}
+
+/* ==== GENERAL STYLES ==== */
+
+* {
+  box-sizing: border-box;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* ==== SIMPLE FOOTER ==== */
+
+footer {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
+  display: table;
+  width: 100vw;
+  height: 8rem;
+  text-align: center;
+  padding: 1rem;
+  font-family: 'Arial', sans-serif;
+  font-size: .875rem;
+}
+
+.wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+footer small {
+  color: #ccc;
+  letter-spacing: .025rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.footer-nav a {
+  color: #c74f78;
+  text-decoration: none;
+  margin: 0 .5rem;
+  display: inline-block;
+}
+
+.footer-nav a:hover {
+  color: #f26896;
+  transition: color .15s ease-in-out;
+}
+
